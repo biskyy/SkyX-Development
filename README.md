@@ -1,6 +1,6 @@
 # SkyX-Development
 My Discord bot development repository.
-Here I will be keeping my source code as an code but also for people's suggestions and bugs.
+Here I will be keeping my source code as a backup, but also for people's suggestions and bugs.
 
 ------------------
 Contact
