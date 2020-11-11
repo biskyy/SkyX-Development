@@ -25,13 +25,12 @@ client.registry
         help: false,
         unknownCommand: false
     })
-    .registerCommandsIn(path.join(__dirname, 'cmds'));
     
 client.on('ready', async ()=>{
     console.log('READY')
     client.user.setActivity('>help | SkyX')
     
-    new WOKCommands(client, 'commands', 'cmds')
+    new WOKCommands(client, 'commands')
 
     .setMongoPath(process.env.MONGO_URI)
 })
